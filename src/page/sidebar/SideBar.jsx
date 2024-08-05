@@ -12,7 +12,7 @@ import DataUsageIcon from '@mui/icons-material/DataUsage';
  const SideBar = () => {
    return(
     
-    <div className="min-h-full 
+    <div className="min-h-[100%] bg-gray-300
         border-2 border-transparent 
     
     flex flex-col w-14">
@@ -26,7 +26,7 @@ import DataUsageIcon from '@mui/icons-material/DataUsage';
                 <div
                     className="
                         border-4 border-transparent border-t-gray-500
-                        relative top-1
+                         top-1
                     "
                 >
                 </div>
@@ -36,7 +36,7 @@ import DataUsageIcon from '@mui/icons-material/DataUsage';
                 <div
                     className="
                         border-4 border-transparent border-t-gray-500
-                        relative top-1
+                         top-1
                     "
                 >
                 </div>
@@ -46,17 +46,20 @@ import DataUsageIcon from '@mui/icons-material/DataUsage';
                 <div
                     className="
                         border-4 border-transparent border-t-gray-500
-                        relative top-1
+                         top-1
                     "
                 >
                 </div>
               <TokenIcon fontSize="large" className=" m-1"/>
               <TipsAndUpdatesIcon fontSize="large" className=" m-1"/>
 
-              <DataUsageIcon fontSize="large" className=" m-2 relative top-20"/>
-              
-              <i class="fa-solid fa-circle-half-stroke text-2xl ml-3 relative top-20"></i>
+              <div className="mt-20 bg-gray-300 absolute relative flex- ">
+            
+            
+                    <DataUsageIcon fontSize="large" className=" m-2  top-20"/>
+                    <i className="fa-solid fa-circle-half-stroke text-2xl ml-3  top-20"></i>
     
+              </div>
     </div>
         
    )
