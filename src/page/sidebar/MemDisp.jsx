@@ -6,17 +6,20 @@ import CloseIcon from '@mui/icons-material/Close';
 import GolfCourseIcon from '@mui/icons-material/GolfCourse';
 import LooksTwoIcon from '@mui/icons-material/LooksTwo';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
+import SettingsVoiceIcon from '@mui/icons-material/SettingsVoice';
+import AttachFileIcon from '@mui/icons-material/AttachFile';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 const MemDisp = () => {
     return(
 
         <div 
-        className="min-h-[100%] bg-gray-400 
+        className="min-h-full bg-gray-200 
         border-2 border-transparent 
     
     flex flex-col max-w-80
     
-    "
+    "   
             
 
         >
@@ -30,7 +33,7 @@ const MemDisp = () => {
             
             <img src='https://th.bing.com/th/id/OIG2._Zpl1oUhyjSor4.f8BNE?pid=ImgGn' alt="" width={44} height={70} className=" rounded-full m-1"/>
 
-            <ArrowForwardIosIcon className="mt-3"/>
+            <ArrowForwardIosIcon fontSize="mediam" className="mt-5"/>
         </div>
                 <div className="border-2 border-transparent border-t-gray-500
                          top-1">
@@ -63,12 +66,12 @@ const MemDisp = () => {
          width={44} height={70} className=" rounded-full m-1"/>  </div>             
                 
                 
-                <div className="flex-col ml-14 absolute top-44">
+                <div className="flex-col ml-14 absolute mt-3 top-44">
                       
                       
                       <p className="text-lg	font-bold ">Arman</p>
                     
-                    <p className="text-gray-300 text-xs	 ">Here is some 3D  i design 
+                    <p className="text-gray-700 text-xs	 ">Here is some 3D  i design 
                         <LooksTwoIcon className="bg-red-700 rounded-[100%]"/> 
                         </p>
                 
@@ -80,15 +83,17 @@ const MemDisp = () => {
                 </div>
                 <div>
                 <img  src="https://th.bing.com/th/id/OIP.RHDLv6Afw28g-iEuI-B_lwHaH_?rs=1&pid=ImgDetMain" alt=""
-         width={46} height={60} className=" rounded-full m-1"/>  </div>             
+         width={46} height={60} className=" rounded-full m-1 mt-2"/>  </div>             
                 
                 
-                <div className="flex-col ml-14 absolute top-64">
+                <div className="flex-col ml-14 absolute top-80 mt-20">
                       
                       
-                      <p className="text-lg	font-bold ">DevX Team</p>
+                      <p className="text-lg	font-bold mt-2">Mahdi Fadaee</p>
                     
-                    <p className="text-gray-300 text-xs	 ">22 Members 
+                    <p className="text-gray-700 text-xs	 ">
+                        <AttachFileIcon/>
+                        2 files
                          
                         </p>
                 
@@ -99,8 +104,90 @@ const MemDisp = () => {
                     <p className="bg-gray-500 text-blue-900 font-bold  text center"><StarBorderIcon className="text-xs"/> All MESSAGES</p>
                 </div>
 
+                    <div>
+                    <div>
+                <img  src="https://th.bing.com/th/id/OIG4.qlTvHAiuc1a3_NtwZFe_?pid=ImgGn" alt=""
+         width={46} height={60} className=" rounded-full m-1"/>  </div>             
+                
+                
+                <div className="flex-col  ml-14 absolute top-80 mt-5">
+                      
+                      
+                      <p className="text-lg	font-bold mt-3 ">Alireza</p>
+                    
+                    <p className="text-gray-700 text-xs	 ">  
+                        <SettingsVoiceIcon className="bg-blue-500 text-blue-600	" fontSize="sm"/>
+                        Voice Message 
+                         
+                        </p>
+                
+          
+                </div>
 
+                    </div>
 
+                    <div>
+                    <div>
+                <img  src="https://th.bing.com/th/id/OIG3.0pWgRafXZrrY0GnqxX.z?w=1024&h=1024&rs=1&pid=ImgDetMain" alt=""
+         width={46} height={60} className=" rounded-full m-1"/>  </div>             
+                
+                
+                <div className="flex-col ml-14 absolute top-77">
+                      
+                      
+                      <p className="text-lg	font-bold mt-1">Saman Shafaei</p>
+                    
+                    <p className="text-gray-300 text-xs	 ">
+                            <AttachFileIcon/>
+                        3 files
+                         
+                        </p>
+                
+          
+                </div>
+
+                    </div>
+                <div>
+                <div>
+                <img  src="https://th.bing.com/th/id/OIG4.pYs4erClZcw2Rxn2ES8j?pid=ImgGn" alt=""
+                    width={46} height={60} className=" rounded-full m-1"/>  </div>             
+                
+                
+                <div className="flex-col ml-14 absolute top-80 mt-48 ">
+                      
+                      
+                      <p className="text-lg	font-bold mt-2 ">Hooman Abasi</p>
+                    
+                    <p className="text-gray-300 text-xs	 "> 
+                        <MoreHorizIcon/>
+                        typing 
+                         
+                        </p>
+                
+          
+                </div>
+
+                </div>
+
+                <div>
+                <div>
+                <img  src="https://th.bing.com/th/id/OIG4.B7jRGMc8Ypf3javxjQ0S?pid=ImgGn" alt=""
+         width={46} height={60} className=" rounded-full m-1"/>  </div>             
+                
+                
+                <div className="flex-col ml-14 absolute top-64 mt-4">
+                      
+                      
+                      <p className="text-lg	font-bold ">DevX Team</p>
+                    
+                    <p className="text-gray-500 text-xs	 ">22 Members 
+                         
+                        </p>
+                
+          
+                </div>
+
+                </div>
                 
 
 
