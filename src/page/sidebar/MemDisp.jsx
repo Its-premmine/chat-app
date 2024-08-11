@@ -33,7 +33,7 @@ const MemDisp = () => {
             
             <img src='https://th.bing.com/th/id/OIG2._Zpl1oUhyjSor4.f8BNE?pid=ImgGn' alt="" width={44} height={70} className=" rounded-full m-1"/>
 
-            <ArrowForwardIosIcon fontSize="mediam" className="mt-5"/>
+            <ArrowForwardIosIcon fontSize="mediam" className="mt-5 text-gray-400"/>
         </div>
                 <div className="border-2 border-transparent border-t-gray-500
                          top-1">
@@ -48,20 +48,20 @@ const MemDisp = () => {
                     m-2
                     ">Massage</h3>
                     <h4 className="text-blue-600 font-bold m-2">48new</h4>
-                    <EditNoteIcon  className="m-3 ml-10"/>
+                    <EditNoteIcon  className="m-3 ml-10 text-gray-400"/>
 
                 </div>
                 <div className="bg-white	
                     mt-10 rounded-md
                 ">
-                    <CloseIcon/>
+                    <CloseIcon className="text-gray-400"/>
                      <input type="text"
                         placeholder="Hello Moto"
-                        /><SearchIcon/>
+                        /><SearchIcon className="text-gray-400"/>
                 </div>
                
                 <div className="text-sm		mt-7 flex-col">
-                   <GolfCourseIcon/>         PIN CHATS
+                   <GolfCourseIcon className="text-gray-400"/>         PIN CHATS
         <div>      <img  src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg" alt=""
          width={44} height={70} className=" rounded-full m-1"/>  </div>             
                 
@@ -72,7 +72,7 @@ const MemDisp = () => {
                       <p className="text-lg	font-bold ">Arman</p>
                     
                     <p className="text-gray-700 text-xs	 ">Here is some 3D  i design 
-                        <LooksTwoIcon className="bg-red-700 rounded-[100%]"/> 
+                        <LooksTwoIcon className="bg-red-700 rounded-[100%] text-gray-400"/> 
                         </p>
                 
                 </div>
@@ -92,7 +92,7 @@ const MemDisp = () => {
                       <p className="text-lg	font-bold mt-2">Mahdi Fadaee</p>
                     
                     <p className="text-gray-700 text-xs	 ">
-                        <AttachFileIcon/>
+                        <AttachFileIcon className="text-gray-400"/>
                         2 files
                          
                         </p>
@@ -101,7 +101,7 @@ const MemDisp = () => {
                 </div>
 
                 <div>
-                    <p className="bg-gray-500 text-blue-900 font-bold  text center"><StarBorderIcon className="text-xs"/> All MESSAGES</p>
+                    <p className="bg-gray-500 text-blue-900 font-bold  text center"><StarBorderIcon className="text-xs text-gray-400"/> All MESSAGES</p>
                 </div>
 
                     <div>
@@ -116,7 +116,7 @@ const MemDisp = () => {
                       <p className="text-lg	font-bold mt-3 ">Alireza</p>
                     
                     <p className="text-gray-700 text-xs	 ">  
-                        <SettingsVoiceIcon className="bg-blue-500 text-blue-600	" fontSize="sm"/>
+                        <SettingsVoiceIcon className="bg-blue-500 text-blue-600	text-gray-400" fontSize="sm"/>
                         Voice Message 
                          
                         </p>
