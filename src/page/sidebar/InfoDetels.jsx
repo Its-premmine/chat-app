@@ -22,31 +22,31 @@ const InfoDetels = () => {
                 <MoreVertTwoToneIcon fontSize="mediam" className="mt-5" />
                 
                 <p className="font-bold text-lg mt-3">Group info</p>
-                <ClearTwoToneIcon fontSize="mediam" className="ml-24 mt-5"/>
+                <ClearTwoToneIcon fontSize="mediam" className="ml-28 mt-5"/>
             </div>
             <div className="rounded-full ml-11 absolute relative bottom-96 ">
-                <img src="https://th.bing.com/th/id/OIG2.RBC6GUaFQkqwVZ2e1SPt?w=1024&h=1024&rs=1&pid=ImgDetMain" height={10} width={100} alt="" className="rounded-full absolute relative bottom-24 left-4 " />
-                <p className="font-bold text-2xl absolute relative bottom-24">DevX Team </p>
-                <p className="font-bold ml-4 text-sm absolute relative bottom-24 text-blue-700">22 Members </p>
+                <img src="https://th.bing.com/th/id/OIG2.RBC6GUaFQkqwVZ2e1SPt?w=1024&h=1024&rs=1&pid=ImgDetMain" height={10} width={70} alt="" className="rounded-full absolute relative bottom-40 mt-8 left-8 " />
+                <p className="font-bold text-2xl absolute relative bottom-40 ml-3">DevX Team </p>
+                <p className="font-bold ml-9 text-sm absolute relative bottom-44 mt-2  text-blue-700">22 Members </p>
 
                 <p 
-                className="font-bold  absolute relative bottom-24 right-10">Description</p>
-                <p className="text-xs  absolute relative bottom-24 right-10 w-44">We are a digital design agency based in Vancouver,Canada with 10+ Year of experience designing products.</p>
-                <p className="  absolute relative bottom-24 right-10 w-44 text-blue-700  mt-2 mr-2">@DevX_team </p>
-                <CopyAllIcon className="ml-36 absolute relative bottom-32 left-3 mt-2 text-blue-700  "/>
+                className="font-bold  absolute relative bottom-44 right-10">Description</p>
+                <p className="text-xs  absolute relative bottom-44 right-10 w-44">We are a digital design agency based in Vancouver,Canada with 10+ Year of experience designing products.</p>
+                <p className="absolute relative bottom-44 right-10 w-44 text-blue-700  mt-2 mr-2">@DevX_team </p>
+                <CopyAllIcon className="ml-36 absolute relative bottom-52 left-7 mt-2 text-blue-700  "/>
             </div>
 
                 <div
                     className="  absolute relative bottom-96 "
                 >
 
-                <p className="absolute relative bottom-28 font-bold bg-blue-300">
-                    <NotificationsActiveIcon className="mr-3 text-yellow-700"/> Notifications <ToggleOnIcon className="ml-12 text-red-600" fontSize="large"/>
+                <p className="absolute relative bottom-52 mt-2 font-bold bg-blue-300">
+                    <NotificationsActiveIcon className="mr-3 text-yellow-700"/> Notifications <ToggleOnIcon className="ml-12 text-blue-700" fontSize="large"/>
                 </p>
                 </div>
 
                 <div className="  absolute relative bottom-96 ">
-                    <p className="pl-10 mt-4 font-bold text-red-500 bg-red-200"> <DeleteIcon/>Delete and Leave</p>
+                    <p className="pl-10 mt-4 font-bold text-red-500 bg-red-200 absolute relative bottom-7"> <DeleteIcon/>Delete and Leave</p>
                 </div>
         </div>
     )

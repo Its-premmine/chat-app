@@ -16,7 +16,7 @@ const App = () => {
             <SideBar/>
             <MemDisp/>
             <MainChat/>
-            <InfoDetels/>
+            <InfoDetels className=""/>
 
         </div>
     )

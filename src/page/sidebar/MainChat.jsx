@@ -13,7 +13,7 @@ const MainChat = () => {
     className="min-h-[100%] bg-gray-300 
         border-2 border-transparent 
     
-    flex flex-col max-w-[70%]
+    flex flex-col max-w-[60%]
     
     "   
 
@@ -38,9 +38,9 @@ const MainChat = () => {
                
           
           <input type="text" placeholder="Write Here...." className="w-96 outline outline outline-transparent" />
-          <FilePresentIcon className="m-2 absolute relative left-48 text-gray-400" /> 
-          <KeyboardVoiceIcon className="mt-2 absolute relative left-48 text-gray-400"/>
-          <SendIcon className="m-2 absolute relative left-48 text-gray-400"/>
+          <FilePresentIcon className="m-2 absolute relative left-44 text-gray-400" /> 
+          <KeyboardVoiceIcon className="mt-2 absolute relative left-44 text-gray-400"/>
+          <SendIcon className="m-2 absolute relative left-44 text-gray-400"/>
         </div>
     </div>
   )
